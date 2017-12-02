@@ -4,11 +4,11 @@ import com.javadocmd.simplelatlng.LatLng;
 
 public class Fermata {
 
-	private int idFermata;
+	private long idFermata;
 	private String nome;
 	private LatLng coords;
 
-	public Fermata(int idFermata, String nome, LatLng coords) {
+	public Fermata(long idFermata, String nome, LatLng coords) {
 		this.idFermata = idFermata;
 		this.nome = nome;
 		this.coords = coords;
@@ -18,7 +18,7 @@ public class Fermata {
 		this.idFermata = idFermata;
 	}
 
-	public int getIdFermata() {
+	public long getIdFermata() {
 		return idFermata;
 	}
 
@@ -44,7 +44,7 @@ public class Fermata {
 
 	@Override
 	public int hashCode() {
-		return ((Integer) idFermata).hashCode();
+		return ((Long) idFermata).hashCode();
 	}
 
 	@Override

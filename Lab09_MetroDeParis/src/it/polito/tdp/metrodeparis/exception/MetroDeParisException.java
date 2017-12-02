@@ -7,7 +7,7 @@ public class MetroDeParisException extends Exception {
 	public MetroDeParisException(String message) {
 		super(message);
 	}
-
+ 
 	public MetroDeParisException(String message, Exception e) {
 		super(message,e);
 	}
